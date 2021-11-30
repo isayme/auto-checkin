@@ -1,0 +1,19 @@
+{
+  "name": "auto-checkin",
+  "version": "0.1.0",
+  "description": "自动签到",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isayme/auto-checkin.git"
+  },
+  "author": "iSayme <isaymeorg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isayme/auto-checkin/issues"
+  },
+  "homepage": "https://github.com/isayme/auto-checkin#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
