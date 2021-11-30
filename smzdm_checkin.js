@@ -36,6 +36,8 @@ class Smzdm {
       return
     }
 
+    console.log(body)
+
     console.log(
       `连续签到 ${checkInData.continue_checkin_days} 天, 当前金币 ${checkInData.gold}`,
     )
