@@ -50,7 +50,7 @@ class Juejin {
       }
 
       console.log(
-        `签到成功：新增积分 ${checkinData.incr_point}, 当前总积分 ${checkinData.sum_point}`,
+        `签到成功：新增矿石 ${checkinData.incr_point}, 当前总矿石 ${checkinData.sum_point}.`,
       )
     }
   }
