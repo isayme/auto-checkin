@@ -1,13 +1,8 @@
-/**
- * new Env('掘金签到')
- * cron: 3 1 10 * * *
- */
-
 const axios = require('axios')
 
 class Juejin {
   constructor(options = {}) {
-    let baseUrl = options.baseUrl || 'http://api.juejin.cn'
+    let baseUrl = options.baseUrl || 'https://api.juejin.cn'
 
     if (!options.cookie) {
       throw new Error('juejin cookie required')
@@ -92,8 +87,4 @@ class Juejin {
   }
 }
 
-const juejin = new Juejin({
-  cookie: process.env.JUEJIN_COOKIE,
-})
-
-juejin.run()
+module.exports = Juejin
